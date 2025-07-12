@@ -209,7 +209,7 @@ function Net(a,d) {
   }
   
   this.tweakNeuron = function(c) {
-    c.neuron.weight += random(-0.5,0.5)
+    c.neuron.weight += random(-1,1)
     c.neuron.bias += random(-10,10)
   }
   this.tweak = function() {
